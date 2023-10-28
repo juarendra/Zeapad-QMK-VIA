@@ -1,0 +1,2 @@
+mouse : https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md
+keyboard : https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md
