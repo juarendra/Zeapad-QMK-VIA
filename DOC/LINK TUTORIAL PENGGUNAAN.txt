@@ -1,0 +1,14 @@
+Cara Menggunakan Software VIA Pada Macropad
+1. Colok dahulu Macropad pada PC
+2. Buka Aplikasi VIA
+3. Pada Tab Setting , aktifkan “Show Design Tab”
+4. Buka Tan Design
+5. Load file extension “json” di google drive yang di berikan
+6. Buka tab Configure untuk melakukan setting
+7. Jika masih muncul gambar searching, maka ulangi lagi load json file
+
+Lakukan Hal ini setiap kali ingin setting macropad di VIA
+
+
+video tutorial: 
+https://youtu.be/hh9AlTF5bT8

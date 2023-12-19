@@ -1,0 +1,16 @@
+1. Buka App VIA Configurator
+2. Masukan File JSON keymap yang ada di google drive
+3. Hubungkan Macropad ke PC
+4. Buka Tab Configure
+5. Pada Tab Configure pilih Tab Layer
+6. Tentukan 1 Tombol yang akan digunakan untuk perpindahan layer
+7. Ketika baru pertama dihubungkan ke PC maka macropad otomatis berada pada layer 0, 
+8. Klick tombol tersebut dan ganti fungsi menjadi TG1(isi dari tab layer), ini artinya fungsi tombol tersebut adalah memidahkan layer sekarang ke layer 1
+9. Pindah ke layer 1, lalu klick tombol tersebut lagi dan ganti fungsi menjadi TG2(isi dari tab layer), ini artinya fungsi tombol tersebut adalah memidahkan layer sekarang ke layer 2
+10.Pindah ke layer 2, lalu klick tombol tersebut lagi dan ganti fungsi menjadi TG3(isi dari tab layer), ini artinya fungsi tombol tersebut adalah memidahkan layer sekarang ke layer 3
+11. Pindah ke layer 3, lalu klick tombol tersebut lagi dan ganti fungsi menjadi TO1(isi dari tab layer), ini artinya fungsi tombol tersebut adalah memindahkan layer sekarang kembali lagi ke layer 0
+12. Selesai
+
+
+layer 0 ----> layer 1 ----> layer 2 ----> layer 3 ----> layer 0
+	 TG1	      TG2            TG3            TO0
