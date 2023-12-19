@@ -35,6 +35,4 @@ VIA WEB VERSION : https://usevia.app/
 </p>
 
 ## Preview VIA
-<p align="center">
 [![Ardalis.GuardClauses on YouTube](http://img.youtube.com/vi/OkE2VeRM4mE/0.jpg)](http://www.youtube.com/watch?v=OkE2VeRM4mE "Improve Your Code with Ardalis.GuardClauses")
-</p>
