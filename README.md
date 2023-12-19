@@ -27,11 +27,11 @@ VIA WEB VERSION : https://usevia.app/
 ## Preview Hardware
 <p align="center">
   
-  <img src="DOC/HARDWARE/3.png" width="50%" height="50%">
-  <img src="DOC/HARDWARE/2.png" width="50%" height="50%">
-  <img src="DOC/HARDWARE/1.png" width="50%" height="50%">
-  <img src="DOC/HARDWARE/4.jpeg" width="50%" height="50%">
-  <img src="DOC/HARDWARE/5.jpeg" width="50%" height="50%">
+  <img src="DOC/HARDWARE/3.png" width="25%" height="25%">
+  <img src="DOC/HARDWARE/2.png" width="25%" height="25%">
+  <img src="DOC/HARDWARE/1.png" width="25%" height="25%">
+  <img src="DOC/HARDWARE/4.jpeg" width="25%" height="25%">
+  <img src="DOC/HARDWARE/5.jpeg" width="25%" height="25%">
 </p>
 
 ## Preview VIA
