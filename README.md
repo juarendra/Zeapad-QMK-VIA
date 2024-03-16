@@ -1,4 +1,11 @@
 # ZEAPAD-QMK-VIA
+Zeapad Encoder adalah sebuah macropad yang dmemiliki 14 key dengan Switch MX dan  2 buah Rotary encoder di ujung kanan atas dan ujung kiri atas.
+
+Rotary encoder pada umummnya digunakan untuk melakukan perubahan nilai yang bervariable seperti volume atau brightness.
+dengan menyesuaikan firmware sebelumnya. sekarang anda dapat mengedit fungsi dari Rotary Encoder sesuai dengan keinginan anda pada Software VIA Configurator 
+
+support untuk Windows, Linux dan Mac OS
+
 anda dapat membelinya di link [berikut](https://tokopedia.link/BoPWtNyp0Hb) 
 
 ## Spesification
