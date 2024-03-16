@@ -1,4 +1,5 @@
 # ZEAPAD-QMK-VIA
+anda dapat membelinya di link [berikut](https://tokopedia.link/BoPWtNyp0Hb) 
 
 ## Spesification
 - STM32F401 as Microcontroller
@@ -48,8 +49,8 @@ VIA WEB VERSION : https://usevia.app/
 </p>
 
 - Colok kabel ujung usb type C ke macropad tanpa mencolokannya dahulu ke USB PC anda
-- Tekan dan tahan tombol yang berada di ujung atas kiri. lalu colokan Ujung USB yang sebelum ke USB PC anda sambil tetap menahan tombol sebelum nya sebentar
-- Setelah ada bunyi/notif USB masuk. anda dapat melepaskan tombol knobnya
+- Tekan dan tahan tombol/knob yang berada di ujung atas kiri. lalu colokan Ujung USB yang sebelum ke USB PC anda sambil tetap menahan tombol sebelum nya sebentar
+- Setelah ada bunyi/notif USB masuk. anda dapat melepaskan tombol/knobnya
 - Maka secara otomatis macropad akan terflash. jika selesai maka tampilan QMK toolbox akan seperti gambar dibawah
 <p align="center">
   <img src="DOC/Selesai Flash QMK Toolbox.PNG" width="50%" height="50%">
