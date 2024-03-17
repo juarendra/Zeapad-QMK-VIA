@@ -6,8 +6,6 @@ dengan menyesuaikan firmware sebelumnya. sekarang anda dapat mengedit fungsi dar
 
 support untuk Windows, Linux dan Mac OS
 
-anda dapat membelinya di link [berikut](https://tokopedia.link/BoPWtNyp0Hb) 
-
 ## Spesification
 - STM32F401 as Microcontroller
 - QMK Firmware
