@@ -1,4 +1,10 @@
 # ZEAPAD-QMK-VIA
+Zeapad Encoder adalah sebuah macropad yang dmemiliki 14 key dengan Switch MX dan  2 buah Rotary encoder di ujung kanan atas dan ujung kiri atas.
+
+Rotary encoder pada umummnya digunakan untuk melakukan perubahan nilai yang bervariable seperti volume atau brightness.
+dengan menyesuaikan firmware sebelumnya. sekarang anda dapat mengedit fungsi dari Rotary Encoder sesuai dengan keinginan anda pada Software VIA Configurator 
+
+support untuk Windows, Linux dan Mac OS
 
 ## Spesification
 - STM32F401 as Microcontroller
@@ -36,3 +42,23 @@ VIA WEB VERSION : https://usevia.app/
 
 ## Preview VIA
 [![Positron Electronic on YouTube](http://img.youtube.com/vi/qvMjg3LCvkY/0.jpg)](http://www.youtube.com/watch?v=qvMjg3LCvkY "zeapad stm32")
+
+
+## Cara Update/Upgrade Firmware
+- Siapkan dahulu macropad, kabel usb dan firmware yang ingin di update/upgrade ke macropad anda
+- Siapkan Firmware yang akan digunakan untuk update/upgrade
+- Download Software QMK Toolbox di [link berikut](https://github.com/qmk/qmk_toolbox/releases)
+- Install Software QMK Toolbox, Install Semua drivernya. setelah siap anda dapat meload Firmware yang seblumnya. Lalu Centang Auto-Flash seperti gambar dibawah
+<p align="center">
+  <img src="DOC/QMK Tollbox Awal.PNG" width="50%" height="50%">
+</p>
+
+- Colok kabel ujung usb type C ke macropad tanpa mencolokannya dahulu ke USB PC anda
+- Tekan dan tahan tombol/knob yang berada di ujung atas kiri. lalu colokan Ujung USB yang sebelum ke USB PC anda sambil tetap menahan tombol sebelum nya sebentar
+- Setelah ada bunyi/notif USB masuk. anda dapat melepaskan tombol/knobnya
+- Maka secara otomatis macropad akan terflash. jika selesai maka tampilan QMK toolbox akan seperti gambar dibawah
+<p align="center">
+  <img src="DOC/Selesai Flash QMK Toolbox.PNG" width="50%" height="50%">
+</p>
+
+
