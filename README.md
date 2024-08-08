@@ -50,6 +50,34 @@ VIA WEB VERSION : https://usevia.app/
 - Open Configure Tab to setting your macropad
 - If nothing happend , do it again from first
 
+## Link Keycode QMK
+- mouse : https://github.com/qmk/qmk_firmware/blob/master/docs/feature_mouse_keys.md
+- keyboard : https://github.com/qmk/qmk_firmware/blob/master/docs/keycodes.md
+
+## Tutorial VIA Usage
+- https://docs.keeb.io/via
+
+## Cara Setting Knob
+- Untuk melakukan setting di knob perlu memasukan command berupa keycode qmk, Jadi cara nya sama dengan melakuykan setting dengan Any key seperti petunjuk pada link berikut: 
+https://docs.keeb.io/via
+
+Here's some examples:
+
+- LALT(KC_TAB) - Sends Alt-Tab
+- LCTL(KC_C) - Sends Ctrl-C
+- LGUI(KC_C) - Sends Cmd-C or Win-C
+- LSFT(LCTL(KC_END)) - Sends Shift-Ctrl-End
+- MO(1) - Momentarily turn on layer 1
+- LCA(KC_DEL) - Sends Ctrl-Alt-Del
+- MT(MOD_RSFT, KC_ENT) - Sends Shift if held, Enter if tapped
+- MACRO (0) - macro 0
+
+## How To use MACRO
+you can read on [this file](https://github.com/juarendra/STREAMPAD-QMK-VIA/blob/main/DOC/MACRO%20VIA%20USAGE.pdf)
+or you can read on this [web](https://www.keychron.com/blogs/archived/how-to-use-via-to-program-your-keyboard)
+or you can see video [youtube](https://youtu.be/GtSeo69Y0Zw)
+
+
 ## Preview Hardware
 <p align="center">
   
@@ -123,3 +151,14 @@ berikut merupakan penjelasan keycode keycode yang ada pada TAB "Custom". abaikan
 | MIDI CC ENCODER2 SEND MIN  | Mengirimkan CC yang terpilih untuk encoder/knob 2 dengan value 63 | keycode ini perlu di daftarkan ke encoder/knob pada orientasi anticlockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 2  |
 | MIDI CC ENCODER3 SEND PLUS  | Mengirimkan CC yang terpilih untuk encoder/knob 3 dengan value 65 | keycode ini perlu di daftarkan ke encoder/knob pada orientasi clockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 3 |
 | MIDI CC ENCODER3 SEND MIN  | Mengirimkan CC yang terpilih untuk encoder/knob 3 dengan value 63| keycode ini perlu di daftarkan ke encoder/knob pada orientasi anticlockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 2 |
+
+## Documentation
+### Pinout Diagram
+### Dimension
+[Dimension File](https://github.com/juarendra/Zeapad-QMK-VIA/blob/main/HARDWARE/zeapad_dimension.pdf)
+### BOM
+### Schematic
+[Schematic File](https://github.com/juarendra/Zeapad-QMK-VIA/blob/main/HARDWARE/zeapad_stm32.pdf)
+### Example Program
+[Schematic File](https://github.com/juarendra/Zeapad-QMK-VIA/tree/main/FIRMWARE)
+## FAQ
