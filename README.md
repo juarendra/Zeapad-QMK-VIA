@@ -6,7 +6,27 @@ dengan menyesuaikan firmware sebelumnya. sekarang anda dapat mengedit fungsi dar
 
 support untuk Windows, Linux dan Mac OS
 
-## Spesification
+## Table of Content
+* [Product Specsification](#product-specsification)
+* [Download VIA](#download-via)
+* [Autodetect on VIA or you can load JSON File](#Autodetect-on-VIA-or-you-can-load-JSON-File)
+* [Link Keycode QMK](#Link-keycode-qmk)
+* [Tutorial VIA Usage](#tutorial-via-usage)
+* [Cara Setting Knob](#cara-setting-knob)
+* [How To use MACRO](#how-to-use-macro)
+* [Preview Hardware](#preview-hardware)
+* [Preview VIA](#preview-via)
+* [Cara Update/Upgrade Firmware](#cara-update/upgrade-firmware)
+* [MIDI2LR Usage](#midi2lr-usage)
+* [Documentation](#documentation)
+  * [Pinout Diagram](#pinout-diagram)
+  * [Dimension](#dimension)
+  * [BOM](#bom)
+  * [Schematic](#schematic0)
+  * [Example Program](#examples-program)
+* [FAQ](#FAQ)
+
+## Product Specsification
 - STM32F401 as Microcontroller
 - QMK Firmware
 - Support VIA, all key and knob can proggrammed
@@ -62,3 +82,42 @@ VIA WEB VERSION : https://usevia.app/
 </p>
 
 
+## MIDI2LR Usage
+MIDI2LR adalah extension dari Adobe Ligtroom yang berguna untuk mengkonversi inputan MIDI dari Midi controller menjadi perintah perintah Lightroom. Salah satu fitur QMK adalah dapat dijadikan sebuah midi controller, sehingga pada dibutalah firmware QMK yang dapat mendukung fitur midi controller pada macropad ZEAPAD PRO tersebut. 
+
+untuk mempelajari penggunaan MIDI2LR and dapat melihat VIDEO [berikut](https://www.youtube.com/watch?v=VDSN_Vz6U04&t=319s).
+
+untuk menggunakan zeapad pro sebagai midi controller anda dapat memasukan keycode midi controller yang ada di link [berikut](https://docs.qmk.fm/features/midi) ke ANY KEY pada aplikasi VIA, seprti contohnya keycode "MI_C" untuk mengirimkan note C, "MI_D" untuk mengirimkan note D
+
+Untuk mengirimkan CC atau Control Change anda dapat memasukan keycode pada TAB "Custom" di aplikasi VIA seperti gambar dibawah
+
+<p align="center">
+  <img src="DOC/midi_controller_1.jpeg" width="50%" height="50%">
+  <img src="DOC/midi_controller_2.jpeg" width="50%" height="50%">
+</p>
+
+berikut merupakan penjelasan keycode keycode yang ada pada TAB "Custom". abaikan keycode dengan nama "blank". Semua keycode dibawah ini sudah di lakukan preset di layer ke 4
+
+| Keycode    | Function             |  Penjelasana         | 
+| ---------- | -------------------- | -------------------- |
+| MIDI CC 1  | Memilih CC 1 untuk encoder 1, CC 16 untuk encoder 2 dan CC 31 untuk encoder 3| dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 2  | Memilih CC 2 untuk encoder 1, CC 17 untuk encoder 2 dan CC 32 untuk encoder 3| dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 3  | Memilih CC 3 untuk encoder 1, CC 18 untuk encoder 2 dan CC 33 untuk encoder 3| dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 4  | Memilih CC 4 untuk encoder 1, CC 19 untuk encoder 2 dan CC 34 untuk encoder 3| dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 5  | Memilih CC 5 untuk encoder 1, CC 20 untuk encoder 2 dan CC 35 untuk encoder 3| dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 6  | Memilih CC 6 untuk encoder 1, CC 21 untuk encoder 2 dan CC 36 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 7  | Memilih CC 7 untuk encoder 1, CC 22 untuk encoder 2 dan CC 37 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 8  | Memilih CC 8 untuk encoder 1, CC 23 untuk encoder 2 dan CC 38 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 9  | Memilih CC 9 untuk encoder 1, CC 24 untuk encoder 2 dan CC 39 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 10  | Memilih CC 10 untuk encoder 1, CC 25 untuk encoder 2 dan CC 40 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 11  | Memilih CC 11 untuk encoder 1, CC 26 untuk encoder 2 dan CC 41 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 12  | Memilih CC 12 untuk encoder 1, CC 27 untuk encoder 2 dan CC 42 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 13  | Memilih CC 13 untuk encoder 1, CC 28 untuk encoder 2 dan CC 43 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 14  | Memilih CC 14 untuk encoder 1, CC 29 untuk encoder 2 dan CC 44 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC 15  | Memilih CC 15 untuk encoder 1, CC 30 untuk encoder 2 dan CC 45 untuk encoder 3|  dengan menekan keycode ini anda akan memilihi CC tersebut sehingga pada saat anda memutar knob/encoder yang berkaitan maka akan mengirimkan CC yang terpilih sebelumnya sesuai dengan encoder/knob yang di putar|
+| MIDI CC ENCODER1 SEND PLUS  | Mengirimkan CC yang terpilih untuk encoder/knob 1 dengan value 65 | keycode ini perlu di daftarkan ke encoder/knob pada orientasi clockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 1 |
+| MIDI CC ENCODER1 SEND MIN  | Mengirimkan CC yang terpilih untuk encoder/knob 1 dengan value 63 | keycode ini perlu di daftarkan ke encoder/knob pada orientasi anticlockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 1 |
+| MIDI CC ENCODER2 SEND PLUS  | Mengirimkan CC yang terpilih untuk encoder/knob 2 dengan value 65 | keycode ini perlu di daftarkan ke encoder/knob pada orientasi clockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 2 |
+| MIDI CC ENCODER2 SEND MIN  | Mengirimkan CC yang terpilih untuk encoder/knob 2 dengan value 63 | keycode ini perlu di daftarkan ke encoder/knob pada orientasi anticlockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 2  |
+| MIDI CC ENCODER3 SEND PLUS  | Mengirimkan CC yang terpilih untuk encoder/knob 3 dengan value 65 | keycode ini perlu di daftarkan ke encoder/knob pada orientasi clockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 3 |
+| MIDI CC ENCODER3 SEND MIN  | Mengirimkan CC yang terpilih untuk encoder/knob 3 dengan value 63| keycode ini perlu di daftarkan ke encoder/knob pada orientasi anticlockwise agar dapat mengatur menaikan value CC yang sesuai di encoder/ knob 2 |
