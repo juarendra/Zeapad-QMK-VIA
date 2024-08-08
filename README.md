@@ -58,6 +58,8 @@ VIA WEB VERSION : https://usevia.app/
   <img src="DOC/HARDWARE/1.png" width="25%" height="25%">
   <img src="DOC/HARDWARE/4.jpeg" width="25%" height="25%">
   <img src="DOC/HARDWARE/5.jpeg" width="25%" height="25%">
+  <img src="DOC/HARDWARE/Zeapad_stand.png" width="25%" height="25%">
+  <img src="DOC/HARDWARE/Zeapad_stand1.png" width="25%" height="25%">
 </p>
 
 ## Preview VIA
