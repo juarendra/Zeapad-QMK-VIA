@@ -22,7 +22,7 @@ support untuk Windows, Linux dan Mac OS
   * [Pinout Diagram](#pinout-diagram)
   * [Dimension](#dimension)
   * [BOM](#bom)
-  * [Schematic](#schematic0)
+  * [Schematic](#schematic)
   * [Example Program](#examples-program)
 * [FAQ](#FAQ)
 
@@ -160,5 +160,5 @@ berikut merupakan penjelasan keycode keycode yang ada pada TAB "Custom". abaikan
 ### Schematic
 [Schematic File](https://github.com/juarendra/Zeapad-QMK-VIA/blob/main/HARDWARE/zeapad_stm32.pdf)
 ### Example Program
-[Schematic File](https://github.com/juarendra/Zeapad-QMK-VIA/tree/main/FIRMWARE)
+[Example Firmware](https://github.com/juarendra/Zeapad-QMK-VIA/tree/main/FIRMWARE)
 ## FAQ
