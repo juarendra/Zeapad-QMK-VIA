@@ -42,6 +42,8 @@ Link Download VIA(Pilih sesuai OS) : https://github.com/the-via/releases/release
 VIA WEB VERSION : https://usevia.app/
 
 ## Autodetect on VIA or you can load JSON File
+for auto detect on VIA, you just need connect the macropad to your PC and Open VIA in web or apps
+or you can connect VIA manually with this step
 - Connect your macropad to PC
 - Open VIA
 - In Tab Setting, enable "Show Design Tab"
