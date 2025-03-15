@@ -68,13 +68,6 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	NUM_2_1,		NUM_2_2,		NUM_2_3,		NUM_2_4
 ),
 
-[_ART_PUNC] = LAYOUT_via(
-    KC_TRNS,   KC_TRNS,   KC_TRNS,    TO(3),
-    KC_TRNS,   KC_TRNS,   KC_TRNS,    KC_TRNS,
-	CUS_1_1,		CUS_1_2,		CUS_1_3,		CUS_1_4,
-	CUS_2_1,		CUS_2_2,		CUS_2_3,		CUS_2_4
-),
-
 [_ART_CUS] = LAYOUT_via(
     MIDI_CC1,       MIDI_CC2,       MIDI_CC3,       TO(4),   
     MIDI_CC4,       MIDI_CC5,       MIDI_CC6,       MIDI_CC7,  
@@ -82,11 +75,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	CUS_2_1,		CUS_2_2,		CUS_2_3,		CUS_2_4
 ),
 
-[_ART_SYM] = LAYOUT_via(
-    MIDI_CC1,       MIDI_CC2,       MIDI_CC3,       TO(5),   
-    MIDI_CC4,       MIDI_CC5,       MIDI_CC6,       MIDI_CC7,  
-	SYM_1_1,		SYM_1_2,		SYM_1_3,		SYM_1_4,
-	SYM_2_1,		SYM_2_2,		SYM_2_3,		SYM_2_4
+[_ART_PUNC] = LAYOUT_via(
+    KC_TRNS,   KC_TRNS,   KC_TRNS,    TO(3),
+    KC_TRNS,   KC_TRNS,   KC_TRNS,    KC_TRNS,
+	PUNC_1_1 ,		PUNC_1_2,		PUNC_1_3,		PUNC_1_4,
+	PUNC_2_1,		PUNC_2_2,		PUNC_2_3,		PUNC_2_4
 ),
 
 [_ART_MOU] = LAYOUT_via(
@@ -101,6 +94,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     MIDI_CC4,       MIDI_CC5,       MIDI_CC6,       MIDI_CC7,  
 	NAV_1_1,		NAV_1_2,		NAV_1_3,		NAV_1_4,
 	NAV_2_1,		NAV_2_2,		NAV_2_3,		NAV_2_4
+),
+
+[_ART_SYM] = LAYOUT_via(
+    MIDI_CC1,       MIDI_CC2,       MIDI_CC3,       TO(5),   
+    MIDI_CC4,       MIDI_CC5,       MIDI_CC6,       MIDI_CC7,  
+	SYM_1_1,		SYM_1_2,		SYM_1_3,		SYM_1_4,
+	SYM_2_1,		SYM_2_2,		SYM_2_3,		SYM_2_4
 )
 };
 
