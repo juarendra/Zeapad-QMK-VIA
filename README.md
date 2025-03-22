@@ -59,6 +59,32 @@ or you can connect VIA manually with this step
 ## Tutorial VIA Usage
 - https://docs.keeb.io/via
 
+## Cara Menggunakan Tap Hold dan Tap Reapeatly
+### Tap Hold
+- Anda perlu mendaftakan satu tombol dahulu yang aakn digunakan sebagai trigger tap hold
+- Pilih satu key yang akan digunakkan sebagi trigger Tap Hold
+- Pada Setting keymap masuk ke tab "Special" dan pilih "Any Key"
+- Masukan "0x7C59" dan tekan OK
+- Anda telah memiliki trigger untuk Tap Hold
+- Untuk menggunakannya anda dapat menekan dahulu trigger Tap Hold
+- lalu tekan tombol lainnya yang ingin di hold terus
+- maka tombol tersebut akan tertekan terus sampai anda menekan tombol itu kembali untuk menghentikannya
+
+Note: Untuk Tap hold hanya mendukung tombol biasa seperti tombol "QWERTY"
+
+### Tap Repeatly
+- Anda perlu mendaftakan satu tombol dahulu yang aakn digunakan sebagai trigger Tap Repeatly
+- Pilih satu key yang akan digunakkan sebagi trigger Tap Repeatly
+- Pada Setting keymap masuk ke tab "Special" dan pilih "Any Key"
+- Masukan "CUSTOM(85)" dan tekan OK
+- Anda telah memiliki trigger untuk Tap Repeatly
+- Untuk menggunakannya anda dapat menekan dahulu trigger Tap Repeatly
+- lalu tekan tombol lainnya yang ingin di tekan dengan mode Repeatly
+- maka tombol tersebut akan tertekan Repeatly dengan delay 100ms sampai anda menekan tombol itu kembali untuk menghentikannya
+
+Note: Untuk Tap Repeatly hanya mendukung tombol biasa seperti tombol "QWERTY" dan "any key"
+
+
 ## Cara Setting Knob
 - Untuk melakukan setting di knob perlu memasukan command berupa keycode qmk, Jadi cara nya sama dengan melakuykan setting dengan Any key seperti petunjuk pada link berikut: 
 https://docs.keeb.io/via
